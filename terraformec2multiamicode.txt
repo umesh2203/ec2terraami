@@ -10,8 +10,8 @@ terraform {
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIA2F6I6IEBS3Q5SIGE"
-  secret_key = "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"
+  access_key = "fill Access key"
+  secret_key = "fill Secret key"
 }
 
 resource "aws_instance" "myterraserver4" {
